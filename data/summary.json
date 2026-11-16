@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T15:42:37Z",
+  "generated_at": "2026-11-16T15:44:35Z",
   "totals": {
     "crates_io": 10785,
     "pypi_without_mirrors": 5085,
@@ -2365,32 +2365,33 @@
   "sources": {
     "crates_io": {
       "ok": true,
-      "fetched_at": "2026-11-16T15:42:37Z",
+      "fetched_at": "2026-11-16T15:44:35Z",
       "error": null,
-      "last_success_at": "2026-11-16T15:42:37Z"
+      "last_success_at": "2026-11-16T15:44:35Z"
     },
     "pypi": {
       "ok": true,
-      "fetched_at": "2026-11-16T15:42:37Z",
+      "fetched_at": "2026-11-16T15:44:35Z",
       "error": null,
-      "last_success_at": "2026-11-16T15:42:37Z"
+      "last_success_at": "2026-11-16T15:44:35Z"
     },
     "npm": {
       "ok": true,
-      "fetched_at": "2026-11-16T15:42:37Z",
+      "fetched_at": "2026-11-16T15:44:35Z",
       "error": null,
-      "last_success_at": "2026-11-16T15:42:37Z"
+      "last_success_at": "2026-11-16T15:44:35Z"
     },
     "github": {
       "ok": true,
-      "fetched_at": "2026-11-16T15:42:37Z",
+      "fetched_at": "2026-11-16T15:44:35Z",
       "error": null,
-      "last_success_at": "2026-11-16T15:42:37Z"
+      "last_success_at": "2026-11-16T15:44:35Z"
     },
     "github_traffic": {
-      "ok": true,
-      "fetched_at": "2026-11-16T15:42:37Z",
-      "error": null,
+      "ok": false,
+      "fetched_at": "2026-11-16T15:44:35Z",
+      "error": "skipped: TRAFFIC_TOKEN is not set",
+      "skipped": true,
       "last_success_at": "2026-11-16T15:42:37Z"
     }
   },
@@ -2402,6 +2403,7 @@
     "npm counts are registry tarball downloads for cadkit-wasm as reported by api.npmjs.org.",
     "GitHub traffic is a rolling 14-day window; the daily view and clone series contain only days the collector captured.",
     "GitHub 'watchers' are repository subscribers, not stars; 'open_issues' includes open pull requests.",
-    "The most recent day of each daily series may be incomplete."
+    "The most recent day of each daily series may be incomplete.",
+    "github_traffic: not collected in this run (skipped: TRAFFIC_TOKEN is not set); values are from 2026-11-16T15:42:37Z."
   ]
 }
