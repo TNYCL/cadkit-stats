@@ -1,0 +1,8 @@
+cadkit-stats
+Copyright 2026 TNYCL (https://tnycl.com)
+
+Licensed under either of the Apache License, Version 2.0 (LICENSE-APACHE) or the
+MIT license (LICENSE-MIT), at your option.
+
+The data in data/ consists of aggregate counts published by crates.io,
+pypistats.org, the npm registry and GitHub; see README.md.

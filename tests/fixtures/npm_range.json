@@ -1,0 +1,27 @@
+{
+  "start": "2025-05-25",
+  "end": "2026-11-16",
+  "package": "cadkit-wasm",
+  "downloads": [
+    {
+      "downloads": 0,
+      "day": "2026-11-12"
+    },
+    {
+      "downloads": 0,
+      "day": "2026-11-13"
+    },
+    {
+      "downloads": 12,
+      "day": "2026-11-14"
+    },
+    {
+      "downloads": 30,
+      "day": "2026-11-15"
+    },
+    {
+      "downloads": 0,
+      "day": "2026-11-16"
+    }
+  ]
+}

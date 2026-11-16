@@ -1,0 +1,36 @@
+{
+  "version_downloads": [
+    {
+      "version": 3674140,
+      "downloads": 5,
+      "date": "2026-11-14"
+    },
+    {
+      "version": 3674140,
+      "downloads": 3,
+      "date": "2026-11-15"
+    },
+    {
+      "version": 3836198,
+      "downloads": 4,
+      "date": "2026-11-15"
+    },
+    {
+      "version": 3836198,
+      "downloads": 2,
+      "date": "2026-11-16"
+    }
+  ],
+  "meta": {
+    "extra_downloads": [
+      {
+        "date": "2026-11-01",
+        "downloads": 7
+      },
+      {
+        "date": "2026-11-14",
+        "downloads": 1
+      }
+    ]
+  }
+}

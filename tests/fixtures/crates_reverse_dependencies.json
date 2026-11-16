@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    {
+      "id": 43969634,
+      "version_id": 900001,
+      "crate_id": "cadkit-example",
+      "req": "^0.5.3",
+      "optional": false,
+      "default_features": true,
+      "features": [],
+      "target": null,
+      "kind": "normal",
+      "downloads": 146
+    },
+    {
+      "id": 43969635,
+      "version_id": 900002,
+      "crate_id": "cadkit-example",
+      "req": "^0.5",
+      "optional": false,
+      "default_features": true,
+      "features": [],
+      "target": null,
+      "kind": "normal",
+      "downloads": 12
+    },
+    {
+      "id": 43969636,
+      "version_id": 900003,
+      "crate_id": "cadkit-example",
+      "req": "^0.4",
+      "optional": true,
+      "default_features": false,
+      "features": [
+        "svg"
+      ],
+      "target": null,
+      "kind": "normal",
+      "downloads": 3
+    }
+  ],
+  "versions": [
+    {
+      "id": 900001,
+      "crate": "cadkit-scene",
+      "num": "0.5.3",
+      "downloads": 146
+    },
+    {
+      "id": 900002,
+      "crate": "plan-viewer",
+      "num": "0.1.0",
+      "downloads": 12
+    },
+    {
+      "id": 900003,
+      "crate": "survey-tools",
+      "num": "0.2.1",
+      "downloads": 3
+    }
+  ],
+  "meta": {
+    "total": 3
+  }
+}

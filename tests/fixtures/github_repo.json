@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "name": "cadkit",
+  "full_name": "example/cadkit",
+  "private": false,
+  "fork": false,
+  "stargazers_count": 6,
+  "watchers_count": 6,
+  "subscribers_count": 2,
+  "forks_count": 1,
+  "open_issues_count": 2,
+  "network_count": 1,
+  "default_branch": "main",
+  "visibility": "public",
+  "license": {
+    "key": "mit",
+    "spdx_id": "MIT"
+  }
+}

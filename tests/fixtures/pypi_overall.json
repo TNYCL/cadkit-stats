@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "category": "with_mirrors",
+      "date": "2026-11-13",
+      "downloads": 120
+    },
+    {
+      "category": "with_mirrors",
+      "date": "2026-11-14",
+      "downloads": 95
+    },
+    {
+      "category": "with_mirrors",
+      "date": "2026-11-15",
+      "downloads": 80
+    },
+    {
+      "category": "without_mirrors",
+      "date": "2026-11-13",
+      "downloads": 60
+    },
+    {
+      "category": "without_mirrors",
+      "date": "2026-11-15",
+      "downloads": 40
+    }
+  ],
+  "package": "pycadkit",
+  "type": "overall_downloads"
+}

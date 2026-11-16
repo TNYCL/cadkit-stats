@@ -1,0 +1,2407 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-16T15:42:37Z",
+  "totals": {
+    "crates_io": 10785,
+    "pypi_without_mirrors": 5085,
+    "pypi_with_mirrors": 13993,
+    "npm": 2917,
+    "github_release_assets": 508,
+    "crates_io_reverse_dependencies": 0
+  },
+  "crates": [
+    {
+      "name": "cadkit",
+      "downloads": 695,
+      "recent_90d": 695,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-core",
+      "downloads": 3111,
+      "recent_90d": 3111,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-dwg",
+      "downloads": 2456,
+      "recent_90d": 2456,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-dgn",
+      "downloads": 911,
+      "recent_90d": 911,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-dxf",
+      "downloads": 2263,
+      "recent_90d": 2263,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-gml",
+      "downloads": 679,
+      "recent_90d": 679,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-geom",
+      "downloads": 193,
+      "recent_90d": 193,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-scene",
+      "downloads": 146,
+      "recent_90d": 146,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-gpu",
+      "downloads": 120,
+      "recent_90d": 120,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-cli",
+      "downloads": 211,
+      "recent_90d": 211,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    },
+    {
+      "name": "cadkit-capi",
+      "downloads": 0,
+      "recent_90d": 0,
+      "max_version": "0.5.3",
+      "reverse_dependencies": 0
+    }
+  ],
+  "pypi": {
+    "package": "pycadkit",
+    "last_day": 46,
+    "last_week": 367,
+    "last_month": 3489,
+    "os_without_mirrors": {
+      "Linux": 503,
+      "Darwin": 272,
+      "Windows": 188,
+      "other": 0,
+      "null": 4122
+    }
+  },
+  "npm": {
+    "package": "cadkit-wasm",
+    "last_week": 269,
+    "last_month": 1799
+  },
+  "github": {
+    "repo": "TNYCL/cadkit",
+    "stars": 6,
+    "forks": 1,
+    "open_issues": 2,
+    "watchers": 0,
+    "release_assets": [
+      {
+        "tag": "v0.5.3",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-wasm-0.5.3.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.3",
+        "asset": "pycadkit-0.5.3.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "SHA256SUMS",
+        "downloads": 7
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-wasm-0.5.2.tgz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 11
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 17
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2-cp39-abi3-win_amd64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.2",
+        "asset": "pycadkit-0.5.2.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "SHA256SUMS",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-wasm-0.5.1.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.1",
+        "asset": "pycadkit-0.5.1.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-wasm-0.5.0.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.5.0",
+        "asset": "pycadkit-0.5.0.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-wasm-0.4.0.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.4.0",
+        "asset": "pycadkit-0.4.0.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "SHA256SUMS",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-wasm-0.3.7.tgz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7-cp39-abi3-win_amd64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.7",
+        "asset": "pycadkit-0.3.7.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-wasm-0.3.6.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.6",
+        "asset": "pycadkit-0.3.6.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "SHA256SUMS",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-wasm-0.3.5.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.5",
+        "asset": "pycadkit-0.3.5.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-wasm-0.3.4.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.4",
+        "asset": "pycadkit-0.3.4.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-wasm-0.3.3.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.3",
+        "asset": "pycadkit-0.3.3.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-wasm-0.3.2.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.2",
+        "asset": "pycadkit-0.3.2.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-wasm-0.3.1.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.1",
+        "asset": "pycadkit-0.3.1.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "SHA256SUMS",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 6
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 6
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-wasm-0.3.0.tgz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 7
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0-cp39-abi3-win_amd64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.3.0",
+        "asset": "pycadkit-0.3.0.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "SHA256SUMS",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-wasm-0.2.1.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 5
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1-cp39-abi3-win_amd64.whl",
+        "downloads": 4
+      },
+      {
+        "tag": "v0.2.1",
+        "asset": "pycadkit-0.2.1.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "SHA256SUMS",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-wasm-0.2.0.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 3
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.2.0",
+        "asset": "pycadkit-0.2.0.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "SHA256SUMS",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-aarch64-unknown-linux-musl.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-capi-aarch64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-capi-aarch64-unknown-linux-gnu.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-capi-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-capi-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-capi-x86_64-unknown-linux-gnu.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-wasm-0.1.0.tgz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-x86_64-apple-darwin.tar.gz",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-x86_64-pc-windows-msvc.zip",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0-cp39-abi3-macosx_10_12_x86_64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0-cp39-abi3-macosx_11_0_arm64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "downloads": 2
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0-cp39-abi3-win_amd64.whl",
+        "downloads": 1
+      },
+      {
+        "tag": "v0.1.0",
+        "asset": "pycadkit-0.1.0.tar.gz",
+        "downloads": 1
+      }
+    ],
+    "traffic_14d": {
+      "views": 94,
+      "unique_views": 43,
+      "clones": 2782,
+      "unique_clones": 1309
+    },
+    "popular_referrers_14d": [
+      {
+        "referrer": "github.com",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "referrer": "pypi.org",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "referrer": "crates.io",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "tnycl.com",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
+    "popular_paths_14d": [
+      {
+        "path": "/TNYCL/cadkit",
+        "count": 43,
+        "uniques": 27
+      },
+      {
+        "path": "/TNYCL/cadkit/releases",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/TNYCL/cadkit/commits/main",
+        "count": 6,
+        "uniques": 2
+      },
+      {
+        "path": "/TNYCL/cadkit/blob/main/docs/dgn/FORMAT_NOTES.md",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/TNYCL/cadkit/actions",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/TNYCL/cadkit/actions/runs/41295257637",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/TNYCL/cadkit/pulls",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/TNYCL/cadkit/blob/main/docs/PROVENANCE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/TNYCL/cadkit/commit/469d3959ce5cd03f9967a987ef7ba8869ee4e28c",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/TNYCL/cadkit/tree/main/docs/dgn",
+        "count": 2,
+        "uniques": 2
+      }
+    ]
+  },
+  "series": {
+    "crates_io": [
+      [
+        "2026-10-01",
+        197
+      ],
+      [
+        "2026-10-02",
+        13
+      ],
+      [
+        "2026-10-03",
+        2
+      ],
+      [
+        "2026-10-04",
+        9
+      ],
+      [
+        "2026-10-05",
+        129
+      ],
+      [
+        "2026-10-06",
+        13
+      ],
+      [
+        "2026-10-07",
+        0
+      ],
+      [
+        "2026-10-08",
+        22
+      ],
+      [
+        "2026-10-09",
+        148
+      ],
+      [
+        "2026-10-10",
+        32
+      ],
+      [
+        "2026-10-11",
+        85
+      ],
+      [
+        "2026-10-12",
+        66
+      ],
+      [
+        "2026-10-13",
+        121
+      ],
+      [
+        "2026-10-14",
+        114
+      ],
+      [
+        "2026-10-15",
+        86
+      ],
+      [
+        "2026-10-16",
+        440
+      ],
+      [
+        "2026-10-17",
+        49
+      ],
+      [
+        "2026-10-18",
+        176
+      ],
+      [
+        "2026-10-19",
+        239
+      ],
+      [
+        "2026-10-20",
+        222
+      ],
+      [
+        "2026-10-21",
+        313
+      ],
+      [
+        "2026-10-22",
+        433
+      ],
+      [
+        "2026-10-23",
+        640
+      ],
+      [
+        "2026-10-24",
+        562
+      ],
+      [
+        "2026-10-25",
+        488
+      ],
+      [
+        "2026-10-26",
+        209
+      ],
+      [
+        "2026-10-27",
+        395
+      ],
+      [
+        "2026-10-28",
+        481
+      ],
+      [
+        "2026-10-29",
+        125
+      ],
+      [
+        "2026-10-30",
+        74
+      ],
+      [
+        "2026-10-31",
+        232
+      ],
+      [
+        "2026-11-01",
+        581
+      ],
+      [
+        "2026-11-02",
+        272
+      ],
+      [
+        "2026-11-03",
+        362
+      ],
+      [
+        "2026-11-04",
+        527
+      ],
+      [
+        "2026-11-05",
+        353
+      ],
+      [
+        "2026-11-06",
+        248
+      ],
+      [
+        "2026-11-07",
+        258
+      ],
+      [
+        "2026-11-08",
+        281
+      ],
+      [
+        "2026-11-09",
+        216
+      ],
+      [
+        "2026-11-10",
+        142
+      ],
+      [
+        "2026-11-11",
+        109
+      ],
+      [
+        "2026-11-12",
+        355
+      ],
+      [
+        "2026-11-13",
+        188
+      ],
+      [
+        "2026-11-14",
+        311
+      ],
+      [
+        "2026-11-15",
+        169
+      ],
+      [
+        "2026-11-16",
+        471
+      ]
+    ],
+    "pypi_without_mirrors": [
+      [
+        "2026-10-01",
+        312
+      ],
+      [
+        "2026-10-02",
+        71
+      ],
+      [
+        "2026-10-03",
+        52
+      ],
+      [
+        "2026-10-04",
+        20
+      ],
+      [
+        "2026-10-05",
+        220
+      ],
+      [
+        "2026-10-06",
+        10
+      ],
+      [
+        "2026-10-07",
+        4
+      ],
+      [
+        "2026-10-08",
+        24
+      ],
+      [
+        "2026-10-09",
+        182
+      ],
+      [
+        "2026-10-10",
+        33
+      ],
+      [
+        "2026-10-11",
+        6
+      ],
+      [
+        "2026-10-12",
+        23
+      ],
+      [
+        "2026-10-13",
+        33
+      ],
+      [
+        "2026-10-14",
+        16
+      ],
+      [
+        "2026-10-15",
+        10
+      ],
+      [
+        "2026-10-16",
+        580
+      ],
+      [
+        "2026-10-17",
+        49
+      ],
+      [
+        "2026-10-18",
+        55
+      ],
+      [
+        "2026-10-19",
+        242
+      ],
+      [
+        "2026-10-20",
+        386
+      ],
+      [
+        "2026-10-21",
+        51
+      ],
+      [
+        "2026-10-22",
+        60
+      ],
+      [
+        "2026-10-23",
+        455
+      ],
+      [
+        "2026-10-24",
+        575
+      ],
+      [
+        "2026-10-25",
+        326
+      ],
+      [
+        "2026-10-26",
+        80
+      ],
+      [
+        "2026-10-27",
+        61
+      ],
+      [
+        "2026-10-28",
+        34
+      ],
+      [
+        "2026-10-29",
+        106
+      ],
+      [
+        "2026-10-30",
+        61
+      ],
+      [
+        "2026-10-31",
+        51
+      ],
+      [
+        "2026-11-01",
+        297
+      ],
+      [
+        "2026-11-02",
+        35
+      ],
+      [
+        "2026-11-03",
+        68
+      ],
+      [
+        "2026-11-04",
+        67
+      ],
+      [
+        "2026-11-05",
+        18
+      ],
+      [
+        "2026-11-06",
+        16
+      ],
+      [
+        "2026-11-07",
+        10
+      ],
+      [
+        "2026-11-08",
+        19
+      ],
+      [
+        "2026-11-09",
+        44
+      ],
+      [
+        "2026-11-10",
+        68
+      ],
+      [
+        "2026-11-11",
+        40
+      ],
+      [
+        "2026-11-12",
+        21
+      ],
+      [
+        "2026-11-13",
+        32
+      ],
+      [
+        "2026-11-14",
+        116
+      ],
+      [
+        "2026-11-15",
+        46
+      ]
+    ],
+    "npm": [
+      [
+        "2026-10-01",
+        219
+      ],
+      [
+        "2026-10-02",
+        33
+      ],
+      [
+        "2026-10-03",
+        24
+      ],
+      [
+        "2026-10-04",
+        11
+      ],
+      [
+        "2026-10-05",
+        155
+      ],
+      [
+        "2026-10-06",
+        0
+      ],
+      [
+        "2026-10-07",
+        4
+      ],
+      [
+        "2026-10-08",
+        15
+      ],
+      [
+        "2026-10-09",
+        128
+      ],
+      [
+        "2026-10-10",
+        28
+      ],
+      [
+        "2026-10-11",
+        19
+      ],
+      [
+        "2026-10-12",
+        24
+      ],
+      [
+        "2026-10-13",
+        20
+      ],
+      [
+        "2026-10-14",
+        0
+      ],
+      [
+        "2026-10-15",
+        0
+      ],
+      [
+        "2026-10-16",
+        438
+      ],
+      [
+        "2026-10-17",
+        38
+      ],
+      [
+        "2026-10-18",
+        25
+      ],
+      [
+        "2026-10-19",
+        0
+      ],
+      [
+        "2026-10-20",
+        0
+      ],
+      [
+        "2026-10-21",
+        23
+      ],
+      [
+        "2026-10-22",
+        15
+      ],
+      [
+        "2026-10-23",
+        318
+      ],
+      [
+        "2026-10-24",
+        334
+      ],
+      [
+        "2026-10-25",
+        181
+      ],
+      [
+        "2026-10-26",
+        33
+      ],
+      [
+        "2026-10-27",
+        37
+      ],
+      [
+        "2026-10-28",
+        60
+      ],
+      [
+        "2026-10-29",
+        9
+      ],
+      [
+        "2026-10-30",
+        29
+      ],
+      [
+        "2026-10-31",
+        18
+      ],
+      [
+        "2026-11-01",
+        208
+      ],
+      [
+        "2026-11-02",
+        27
+      ],
+      [
+        "2026-11-03",
+        30
+      ],
+      [
+        "2026-11-04",
+        18
+      ],
+      [
+        "2026-11-05",
+        65
+      ],
+      [
+        "2026-11-06",
+        13
+      ],
+      [
+        "2026-11-07",
+        23
+      ],
+      [
+        "2026-11-08",
+        26
+      ],
+      [
+        "2026-11-09",
+        21
+      ],
+      [
+        "2026-11-10",
+        42
+      ],
+      [
+        "2026-11-11",
+        45
+      ],
+      [
+        "2026-11-12",
+        21
+      ],
+      [
+        "2026-11-13",
+        58
+      ],
+      [
+        "2026-11-14",
+        44
+      ],
+      [
+        "2026-11-15",
+        38
+      ],
+      [
+        "2026-11-16",
+        0
+      ]
+    ],
+    "github_views": [
+      [
+        "2026-11-01",
+        10,
+        2
+      ],
+      [
+        "2026-11-02",
+        11,
+        5
+      ],
+      [
+        "2026-11-03",
+        12,
+        6
+      ],
+      [
+        "2026-11-04",
+        7,
+        6
+      ],
+      [
+        "2026-11-05",
+        13,
+        5
+      ],
+      [
+        "2026-11-06",
+        3,
+        3
+      ],
+      [
+        "2026-11-07",
+        2,
+        2
+      ],
+      [
+        "2026-11-08",
+        2,
+        2
+      ],
+      [
+        "2026-11-09",
+        10,
+        5
+      ],
+      [
+        "2026-11-10",
+        1,
+        1
+      ],
+      [
+        "2026-11-11",
+        1,
+        1
+      ],
+      [
+        "2026-11-12",
+        11,
+        6
+      ],
+      [
+        "2026-11-13",
+        5,
+        4
+      ],
+      [
+        "2026-11-14",
+        6,
+        2
+      ]
+    ],
+    "github_clones": [
+      [
+        "2026-11-01",
+        290,
+        149
+      ],
+      [
+        "2026-11-02",
+        153,
+        138
+      ],
+      [
+        "2026-11-03",
+        158,
+        145
+      ],
+      [
+        "2026-11-04",
+        135,
+        125
+      ],
+      [
+        "2026-11-05",
+        139,
+        127
+      ],
+      [
+        "2026-11-06",
+        143,
+        134
+      ],
+      [
+        "2026-11-07",
+        148,
+        142
+      ],
+      [
+        "2026-11-08",
+        146,
+        143
+      ],
+      [
+        "2026-11-09",
+        144,
+        136
+      ],
+      [
+        "2026-11-10",
+        150,
+        141
+      ],
+      [
+        "2026-11-11",
+        436,
+        148
+      ],
+      [
+        "2026-11-12",
+        149,
+        142
+      ],
+      [
+        "2026-11-13",
+        444,
+        151
+      ],
+      [
+        "2026-11-14",
+        147,
+        136
+      ]
+    ]
+  },
+  "sources": {
+    "crates_io": {
+      "ok": true,
+      "fetched_at": "2026-11-16T15:42:37Z",
+      "error": null,
+      "last_success_at": "2026-11-16T15:42:37Z"
+    },
+    "pypi": {
+      "ok": true,
+      "fetched_at": "2026-11-16T15:42:37Z",
+      "error": null,
+      "last_success_at": "2026-11-16T15:42:37Z"
+    },
+    "npm": {
+      "ok": true,
+      "fetched_at": "2026-11-16T15:42:37Z",
+      "error": null,
+      "last_success_at": "2026-11-16T15:42:37Z"
+    },
+    "github": {
+      "ok": true,
+      "fetched_at": "2026-11-16T15:42:37Z",
+      "error": null,
+      "last_success_at": "2026-11-16T15:42:37Z"
+    },
+    "github_traffic": {
+      "ok": true,
+      "fetched_at": "2026-11-16T15:42:37Z",
+      "error": null,
+      "last_success_at": "2026-11-16T15:42:37Z"
+    }
+  },
+  "notes": [
+    "Download counts include CI systems, mirrors, caches and bots; they are not a count of users.",
+    "crates.io totals are all-time; crates.io per-day downloads cover the last 90 days per request and the collector keeps older days.",
+    "crates.io updates per-day counts and all-time totals on different schedules, so the daily series can briefly sum to slightly more than the total.",
+    "PyPI numbers come from pypistats.org. 'without mirrors' excludes known mirroring clients; OS 'null' means the installer did not report a platform.",
+    "npm counts are registry tarball downloads for cadkit-wasm as reported by api.npmjs.org.",
+    "GitHub traffic is a rolling 14-day window; the daily view and clone series contain only days the collector captured.",
+    "GitHub 'watchers' are repository subscribers, not stars; 'open_issues' includes open pull requests.",
+    "The most recent day of each daily series may be incomplete."
+  ]
+}

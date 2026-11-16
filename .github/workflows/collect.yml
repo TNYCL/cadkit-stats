@@ -1,0 +1,65 @@
+name: collect
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Collect
+        env:
+          # Fine-grained PAT, TNYCL/cadkit only, Administration: read-only. Optional.
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          # Raises the API rate limit for public repository and release data.
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python collect.py
+
+      - name: Commit data
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit --quiet -m "data: snapshot $(date -u +%F)"
+          git push --quiet || { git pull --rebase --quiet && git push --quiet; }
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger site rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          PAGES_DEPLOY_HOOK: ${{ secrets.PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "${PAGES_DEPLOY_HOOK:-}" ]; then
+            echo "PAGES_DEPLOY_HOOK is not set; skipping the site rebuild."
+            exit 0
+          fi
+          # raw.githubusercontent.com caches files for up to 5 minutes; wait so the
+          # site build reads the summary that was just pushed.
+          sleep 330
+          curl --fail --silent --show-error --output /dev/null --max-time 60 -X POST "$PAGES_DEPLOY_HOOK"
+          echo "Site rebuild requested."

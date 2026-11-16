@@ -1,0 +1,19 @@
+{
+  "github_repo": "TNYCL/cadkit",
+  "user_agent": "cadkit-stats (https://github.com/TNYCL/cadkit-stats)",
+  "crates": [
+    "cadkit",
+    "cadkit-core",
+    "cadkit-dwg",
+    "cadkit-dgn",
+    "cadkit-dxf",
+    "cadkit-gml",
+    "cadkit-geom",
+    "cadkit-scene",
+    "cadkit-gpu",
+    "cadkit-cli",
+    "cadkit-capi"
+  ],
+  "pypi_package": "pycadkit",
+  "npm_package": "cadkit-wasm"
+}
