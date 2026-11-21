@@ -1,75 +1,75 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T11:47:48Z",
+  "generated_at": "2026-11-21T11:13:30Z",
   "totals": {
-    "crates_io": 12364,
-    "pypi_without_mirrors": 5670,
-    "pypi_with_mirrors": 15830,
-    "npm": 6372,
-    "github_release_assets": 782,
+    "crates_io": 12577,
+    "pypi_without_mirrors": 5704,
+    "pypi_with_mirrors": 15880,
+    "npm": 6745,
+    "github_release_assets": 791,
     "crates_io_reverse_dependencies": 0
   },
   "crates": [
     {
       "name": "cadkit",
-      "downloads": 786,
-      "recent_90d": 786,
+      "downloads": 799,
+      "recent_90d": 799,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-core",
-      "downloads": 3541,
-      "recent_90d": 3541,
+      "downloads": 3598,
+      "recent_90d": 3598,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-dwg",
-      "downloads": 2746,
-      "recent_90d": 2746,
+      "downloads": 2790,
+      "recent_90d": 2790,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-dgn",
-      "downloads": 1037,
-      "recent_90d": 1037,
+      "downloads": 1060,
+      "recent_90d": 1060,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-dxf",
-      "downloads": 2637,
-      "recent_90d": 2637,
+      "downloads": 2682,
+      "recent_90d": 2682,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-gml",
-      "downloads": 762,
-      "recent_90d": 762,
+      "downloads": 775,
+      "recent_90d": 775,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-geom",
-      "downloads": 253,
-      "recent_90d": 253,
+      "downloads": 259,
+      "recent_90d": 259,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-scene",
-      "downloads": 194,
-      "recent_90d": 194,
+      "downloads": 200,
+      "recent_90d": 200,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
     {
       "name": "cadkit-gpu",
-      "downloads": 162,
-      "recent_90d": 162,
+      "downloads": 168,
+      "recent_90d": 168,
       "max_version": "0.5.4",
       "reverse_dependencies": 0
     },
@@ -90,21 +90,21 @@
   ],
   "pypi": {
     "package": "pycadkit",
-    "last_day": 63,
-    "last_week": 779,
-    "last_month": 3342,
+    "last_day": 34,
+    "last_week": 781,
+    "last_month": 3325,
     "os_without_mirrors": {
-      "Linux": 602,
+      "Linux": 617,
       "Darwin": 301,
-      "Windows": 208,
+      "Windows": 212,
       "other": 0,
-      "null": 4559
+      "null": 4574
     }
   },
   "npm": {
     "package": "cadkit-wasm",
-    "last_week": 3595,
-    "last_month": 5191
+    "last_week": 3910,
+    "last_month": 5541
   },
   "github": {
     "repo": "TNYCL/cadkit",
@@ -116,7 +116,7 @@
       {
         "tag": "v0.5.4",
         "asset": "SHA256SUMS",
-        "downloads": 62
+        "downloads": 64
       },
       {
         "tag": "v0.5.4",
@@ -166,12 +166,12 @@
       {
         "tag": "v0.5.4",
         "asset": "cadkit-x86_64-pc-windows-msvc.zip",
-        "downloads": 20
+        "downloads": 21
       },
       {
         "tag": "v0.5.4",
         "asset": "cadkit-x86_64-unknown-linux-musl.tar.gz",
-        "downloads": 23
+        "downloads": 29
       },
       {
         "tag": "v0.5.4",
@@ -1944,7 +1944,11 @@
       ],
       [
         "2026-11-20",
-        107
+        214
+      ],
+      [
+        "2026-11-21",
+        60
       ]
     ],
     "pypi_without_mirrors": [
@@ -2147,6 +2151,10 @@
       [
         "2026-11-19",
         63
+      ],
+      [
+        "2026-11-20",
+        34
       ]
     ],
     "npm": [
@@ -2352,6 +2360,10 @@
       ],
       [
         "2026-11-20",
+        373
+      ],
+      [
+        "2026-11-21",
         0
       ]
     ],
@@ -2503,31 +2515,31 @@
   "sources": {
     "crates_io": {
       "ok": true,
-      "fetched_at": "2026-11-20T11:47:48Z",
+      "fetched_at": "2026-11-21T11:13:30Z",
       "error": null,
-      "last_success_at": "2026-11-20T11:47:48Z"
+      "last_success_at": "2026-11-21T11:13:30Z"
     },
     "pypi": {
       "ok": true,
-      "fetched_at": "2026-11-20T11:47:48Z",
+      "fetched_at": "2026-11-21T11:13:30Z",
       "error": null,
-      "last_success_at": "2026-11-20T11:47:48Z"
+      "last_success_at": "2026-11-21T11:13:30Z"
     },
     "npm": {
       "ok": true,
-      "fetched_at": "2026-11-20T11:47:48Z",
+      "fetched_at": "2026-11-21T11:13:30Z",
       "error": null,
-      "last_success_at": "2026-11-20T11:47:48Z"
+      "last_success_at": "2026-11-21T11:13:30Z"
     },
     "github": {
       "ok": true,
-      "fetched_at": "2026-11-20T11:47:48Z",
+      "fetched_at": "2026-11-21T11:13:30Z",
       "error": null,
-      "last_success_at": "2026-11-20T11:47:48Z"
+      "last_success_at": "2026-11-21T11:13:30Z"
     },
     "github_traffic": {
       "ok": false,
-      "fetched_at": "2026-11-20T11:47:48Z",
+      "fetched_at": "2026-11-21T11:13:30Z",
       "error": "skipped: TRAFFIC_TOKEN is not set",
       "skipped": true,
       "last_success_at": "2026-11-16T15:42:37Z"
